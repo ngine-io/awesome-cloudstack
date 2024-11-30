@@ -60,7 +60,7 @@
 
 ## Libraries
 
-* [cs (Python)](https://github.com/exoscale/cs)
+* [cs (Python)](https://github.com/ngine-io/cs)
 * [go-cloudstack (Go)](https://github.com/xanzy/go-cloudstack)
 * [golang-cloudstack-library (Go)](https://github.com/atsaki/golang-cloudstack-library)
 * [cloudstack PHP Client (PHP - ACS 4.10 compatible)](https://github.com/myENA/cloudstack-php-client)
@@ -102,7 +102,6 @@
 
 ## Public Cloud Providers
 
-* [Exoscale](https://www.exoscale.com)
 * [Ikoula](https://www.ikoula.com/en)
 * [LeaseWeb](https://www.leaseweb.com/)
 * [PCextreme](https://www.pcextreme.com/)
@@ -130,6 +129,7 @@
 ### Development Environment
 
 * [MonkeyBox - nested VM based CloudStack development](https://github.com/rhtyd/monkeybox)
+* [CloudStack Simulator Container](https://github.com/ansible/cloudstack-test-container)
 
 ### Continuous Integrations
 
