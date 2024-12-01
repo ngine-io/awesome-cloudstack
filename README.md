@@ -83,11 +83,9 @@
 * [Apache libcloud (Python)](https://libcloud.apache.org/)
 * [Apache jclouds (Java)](https://jclouds.apache.org/)
 * [apache-cloudstack-java-client (Java)](https://github.com/Autonomiccs/apache-cloudstack-java-client)
-* [apache-cloudstack-javascript-client
-(JavaScript)](https://github.com/Autonomiccs/apache-cloudstack-javascript-client)
+* [apache-cloudstack-javascript-client(JavaScript)](https://github.com/Autonomiccs/apache-cloudstack-javascript-client)
 * [.NET SDK for CloudStack](https://github.com/richardlawley/cloudstack.net)
 * [vhd-util for manipulating Xen VHDs](https://github.com/NuxRo/vhd-util)
-* [Cloudstack API for the Kotlin language (Kotlin)](https://github.com/nfrankel/cloudstack-api)
 
 ## Operational Extensions
 
@@ -100,7 +98,7 @@
 
 ### RealHostIP replacement
 
-* [nip.io fork for realhostip compatible service](https://github.com/resmo/nip.io)
+* [nip.io - realhostip compatible service](https://github.com/exentriquesolutions/nip.io)
 * [powerdns-cloudstack-proxy-dns](https://github.com/terbolous/powerdns-cloudstack-proxy-dns)
 
 ### Billing Solutions
