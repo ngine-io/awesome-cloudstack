@@ -7,6 +7,7 @@
 ## Table of Contents
 
 - [Essentials](#essentials)
+- [Installation Guides](#installation-guides)
 - [Packages and Images](#packages-and-templates)
 - [Command Line Interface Clients](#command-line-interface-clients)
 - [Configuration Management Integrations](#configuration-management-integrations)
@@ -21,15 +22,21 @@
 ## Essentials
 
 * [Apache CloudStack](https://cloudstack.apache.org/)
-* [CloudStack Installation Guide](http://docs.cloudstack.apache.org/en/latest/installguide/)
 * [CloudStack API Reference](https://cloudstack.apache.org/api.html)
+
+## Installation Guides
+
+* [CloudStack Official Installation Guide](https://docs.cloudstack.apache.org/en/latest/installguide/)
+* [CloudStack x86_64 Ubuntu KVM Install Guide](https://rohityadav.cloud/blog/cloudstack-kvm/)
+* [CloudStack ARM64 Ubuntu KVM Install Guide](https://rohityadav.cloud/blog/cloudstack-arm64-kvm/)
+* [Ceph Installation and CloudStack Usage Guide](https://rohityadav.cloud/blog/ceph/)
 
 ## Packages and Templates
 
 ### Installation Packages
 
-* [Install Packages from ShapeBlue](http://www.shapeblue.com/packages/)
-* [Install Packages from PCextreme](http://cloudstack.apt-get.eu/)
+* [Install Packages from Community Repo](https://download.cloudstack.org)
+* [Install Packages from ShapeBlue](https://www.shapeblue.com/packages/)
 
 ### Templates
 
@@ -38,21 +45,28 @@
 * [Instance Templates Packer by Schuberg Philis](https://github.com/MissionCriticalCloud/bubble-templates-packer)
 * [Instance Templates Packer by PCextreme](https://github.com/PCextreme/packer-templates)
 
-
 ## Command Line Interface Clients
 
-* [Apache Cloudmonkey (Python)](https://github.com/apache/cloudstack-cloudmonkey)
+* [cmk - Apache CloudMonkey (Official Go-based CLI)](https://github.com/apache/cloudstack-cloudmonkey)
+* [CloudStack Go-SDK (Official SDK)](https://github.com/apache/cloudstack-go)
+* [cs (Python)](https://github.com/ngine-io/cs)
 * [cloudstack-cli (Ruby)](https://github.com/niwo/cloudstack-cli)
-* [cs (Python)](https://github.com/exoscale/cs)
-* [go-cloudstack](https://github.com/xanzy/go-cloudstack)
 
 ## Configuration Management Integrations
 
 ### Ansible
+
 * [Ansible CloudStack Integration](https://docs.ansible.com/ansible/latest/collections/ngine_io/cloudstack/index.html)
 * [Ansible Cloud Infra Role (Advanced Networking)](https://github.com/swisstxt/ansible-role-cloud-infra)
 
+### Kubernetes
+
+* [CAPC - Cluster API Provider for CloudStack](https://cluster-api-cloudstack.sigs.k8s.io/introduction)
+* [CloudStack Kubernetes Provider](https://github.com/apache/cloudstack-kubernetes-provider)
+* [CloudStack CSI Driver](https://github.com/shapeblue/cloudstack-csi-driver)
+
 ### Terraform
+
 * [CloudStack Provider](https://github.com/apache/cloudstack-kubernetes-provider)
 
 ### Vagrant
@@ -82,6 +96,7 @@
 * [CloudStack Nagios Monitoring by SWISS TXT](https://github.com/swisstxt/cloudstack-nagios)
 * [collectd-cloudstack Plugin](https://github.com/exoscale/collectd-cloudstack)
 * [CloudStack Statistics into InfluxDB](https://github.com/niwo/cloudstats)
+* [csbench - CloudStack Benchmarking Tool](https://github.com/apache/cloudstack-csbench)
 
 ### RealHostIP replacement
 
@@ -117,6 +132,7 @@
 * [ShapeBlue Blog](https://www.shapeblue.com/blog/)
 * [Remi Bergsma's blog](https://blog.remibergsma.com/tag/cloudstack-2/)
 * [shankerbalan.net](https://shankerbalan.net/)
+* [Rohit Yadav's Blog](https://rohityadav.cloud)
 
 ## Development
 
@@ -125,10 +141,11 @@
 * [GitHub](https://github.com/apache/cloudstack)
 * [Apache CloudStack Issue Tracker - GitHub](https://github.com/apache/cloudstack/issues)
 * [Apache CloudStack Issue Tracker - Jira (retired)](https://issues.apache.org/jira/browse/CLOUDSTACK)
+* [Hackerbook](https://github.com/shapeblue/hackerbook) - Guide to CloudStack Development
 
 ### Development Environment
 
-* [MonkeyBox - nested VM based CloudStack development](https://github.com/rhtyd/monkeybox)
+* [mbx](https://github.com/shapeblue/mbx) - build dev and QA environments on KVM
 * [CloudStack Simulator Container](https://github.com/ansible/cloudstack-test-container)
 
 ### Continuous Integrations
