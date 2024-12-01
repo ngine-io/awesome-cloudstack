@@ -83,7 +83,7 @@
 * [Apache libcloud (Python)](https://libcloud.apache.org/)
 * [Apache jclouds (Java)](https://jclouds.apache.org/)
 * [apache-cloudstack-java-client (Java)](https://github.com/Autonomiccs/apache-cloudstack-java-client)
-* [apache-cloudstack-javascript-client(JavaScript)](https://github.com/Autonomiccs/apache-cloudstack-javascript-client)
+* [apache-cloudstack-javascript-client (JavaScript)](https://github.com/Autonomiccs/apache-cloudstack-javascript-client)
 * [.NET SDK for CloudStack](https://github.com/richardlawley/cloudstack.net)
 * [vhd-util for manipulating Xen VHDs](https://github.com/NuxRo/vhd-util)
 
@@ -144,12 +144,14 @@
 ### Development Environment
 
 * [mbx](https://github.com/shapeblue/mbx) - build dev and QA environments on KVM
+* [Apache CloudStack Simulator as Docker Container](https://hub.docker.com/r/apache/cloudstack-simulator)
 * [CloudStack Simulator Container](https://github.com/ansible/cloudstack-test-container)
 
 ### Continuous Integrations
 
 * [Trillian](https://github.com/shapeblue/Trillian)
 * [bubble-blueprint](https://github.com/MissionCriticalCloud/bubble-blueprint)
+* [GitHub CI CloudStack Service Workflow](https://github.com/apache/cloudstack-terraform-provider/blob/main/.github/workflows/acceptance.yml)
 
 ### Build with Docker
 
