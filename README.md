@@ -95,6 +95,7 @@
 * [collectd-cloudstack Plugin](https://github.com/exoscale/collectd-cloudstack)
 * [CloudStack Statistics into InfluxDB](https://github.com/niwo/cloudstats)
 * [csbench - CloudStack Benchmarking Tool](https://github.com/apache/cloudstack-csbench)
+* [garm - Multi-cloud, auto-scaling manager for GitHub Actions & Gitea self-hosted runners](https://github.com/cloudbase/garm)
 
 ### RealHostIP replacement
 
